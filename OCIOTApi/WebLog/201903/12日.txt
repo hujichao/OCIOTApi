@@ -1,0 +1,46 @@
+
+===============BEGIN 2019/3/12 14:42:17===============
+Message:指定的转换无效。
+Source:System.Data.DataSetExtensions
+StackTrace:   在 System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   在 System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   在 REG.N6.IFT.TwpFControl.Model.FireControl_MpArTable.ToObj(DataRow row)
+   在 DBUtility.Entity.EntityExtern.ConvertToEntity[T](DataRow row)
+   在 DBUtility.DBBase.DBase.GetModelObj[T](SQLString sql, SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObj(SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObjByKey(String[] value)
+   在 REG.N6.IFT.TwpFControl.FireControl_MpArTableDAL.SelectObjByKey(String key)
+   在 REG.N6.IFT.TwpFControl.BLL.FireControl_MpArTable_BLL.GetObjByKey(String key)
+TargetSite:T ValueField(System.Object)
+================END 2019/3/12 14:42:17================
+
+===============BEGIN 2019/3/12 14:47:19===============
+Message:指定的转换无效。
+Source:System.Data.DataSetExtensions
+StackTrace:   在 System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   在 System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   在 REG.N6.IFT.TwpFControl.Model.FireControl_MpArTable.ToObj(DataRow row)
+   在 DBUtility.Entity.EntityExtern.ConvertToEntity[T](DataRow row)
+   在 DBUtility.DBBase.DBase.GetModelObj[T](SQLString sql, SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObj(SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObjByKey(String[] value)
+   在 REG.N6.IFT.TwpFControl.FireControl_MpArTableDAL.SelectObjByKey(String key)
+   在 REG.N6.IFT.TwpFControl.BLL.FireControl_MpArTable_BLL.GetObjByKey(String key)
+TargetSite:T ValueField(System.Object)
+================END 2019/3/12 14:47:19================
+
+===============BEGIN 2019/3/12 14:47:23===============
+Message:列名 'MessType' 无效。
+Source:.Net SqlClient Data Provider
+StackTrace:   在 DBUtility.Command.SqlCommand.GetDataSet(String strSelect, List`1 parameters, DbConnection conn)
+   在 DBUtility.Command.SqlCommand.GetTabel(String strSelect, List`1 parameters, DbConnection conn)
+   在 DBUtility.Command.SqlCommand.GetTabel(String strSelect, List`1 parameters)
+   在 DBUtility.DBBase.DBase.GetModelObj[T](SQLString sql, SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObj(SQLParameter[] paras)
+   在 DBUtility.DBBase.DBase`1.GetModelObjByKey(String[] value)
+   在 REG.N6.IFT.TwpFControl.FireControl_MpArTableDAL.SelectObjByKey(String key)
+   在 REG.N6.IFT.TwpFControl.BLL.FireControl_MpArTable_BLL.GetObjByKey(String key)
+TargetSite:System.Data.DataSet GetDataSet(System.String, System.Collections.Generic.List`1[DBUtility.DBSQLClient.SQLParameter], System.Data.Common.DbConnection)
+ConnString:Data Source=117.78.52.190,50818;Initial Catalog=REG.N6.IFT.TwpFControl;User ID=sjz2018dbuser;
+SQLString:select SeqNum,AccID,DevNum,RawData,PJsonData,ReportDate,MessType,CreateTime,CreatedBy,Deleted from FireControl_MpArTable where  1=1  and FireControl_MpArTable.AccID=@AccID 
+================END 2019/3/12 14:47:23================

@@ -1,0 +1,70 @@
+
+===============BEGIN 2019/12/17 14:34:22===============
+Message:Unexpected character encountered while parsing value: D. Path '', line 0, position 0.
+Source:Newtonsoft.Json
+StackTrace:   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 OCIOTApi.Controllers.ElectricalController.GetCallThePoliceData(JObject jObject) 位置 E:\Work\全民消防项目\NET\OCIOTApi\OCIOTApi\Controllers\ElectricalController.cs:行号 921
+TargetSite:Boolean ParseValue()
+================END 2019/12/17 14:34:22================
+
+===============BEGIN 2019/12/17 14:36:05===============
+Message:Unexpected character encountered while parsing value: D. Path '', line 0, position 0.
+Source:Newtonsoft.Json
+StackTrace:   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 OCIOTApi.Controllers.ElectricalController.GetCallThePoliceData(JObject jObject) 位置 E:\Work\全民消防项目\NET\OCIOTApi\OCIOTApi\Controllers\ElectricalController.cs:行号 921
+TargetSite:Boolean ParseValue()
+================END 2019/12/17 14:36:05================
+
+===============BEGIN 2019/12/17 14:46:02===============
+Message:Unexpected character encountered while parsing value: D. Path '', line 0, position 0.
+Source:Newtonsoft.Json
+StackTrace:   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 OCIOTApi.Controllers.ElectricalController.GetCallThePoliceData(JObject jObject) 位置 E:\Work\全民消防项目\NET\OCIOTApi\OCIOTApi\Controllers\ElectricalController.cs:行号 921
+TargetSite:Boolean ParseValue()
+================END 2019/12/17 14:46:02================
+
+===============BEGIN 2019/12/17 14:49:51===============
+Message:Unexpected character encountered while parsing value: D. Path '', line 0, position 0.
+Source:Newtonsoft.Json
+StackTrace:   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 OCIOTApi.Controllers.ElectricalController.GetCallThePoliceData(JObject jObject) 位置 E:\Work\全民消防项目\NET\OCIOTApi\OCIOTApi\Controllers\ElectricalController.cs:行号 921
+TargetSite:Boolean ParseValue()
+================END 2019/12/17 14:49:51================
+
+===============BEGIN 2019/12/17 15:18:42===============
+Message:Unexpected character encountered while parsing value: O. Path '', line 0, position 0.
+Source:Newtonsoft.Json
+StackTrace:   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 OCIOTApi.Controllers.ElectricalController.GetCallThePoliceData(sdfsdfsdf jitem) 位置 E:\Work\全民消防项目\NET\OCIOTApi\OCIOTApi\Controllers\ElectricalController.cs:行号 922
+TargetSite:Boolean ParseValue()
+================END 2019/12/17 15:18:42================
